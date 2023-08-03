@@ -1,0 +1,26 @@
+
+    /* Aggiungi uno spazio tra le colonne */
+.containertext {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Rimuovi la spaziatura orizzontale tra i container */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Stile per l'immagine al passaggio del mouse */
+.img-hover {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-hover:hover {
+  opacity: 0.8;
+}
+
+/* Rimuovi lo stile di sottolineatura per i link */
+.custom-link {
+  text-decoration: none;
+}

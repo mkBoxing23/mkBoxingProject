@@ -1,0 +1,67 @@
+<div class="container mb-5 mt-3">
+  <div class="row">
+    <div class="col-md-4">
+      <img [src]="datiProdotto.img" alt="" class="w-100 img-thumbnail">
+    </div>
+    <div class="col-md-5 ">
+      <p class="subtitle fs-1">{{datiProdotto.name}}</p>
+      <hr>
+      <strong class="text-danger fs-2">{{datiProdotto.prezzo}}€</strong>
+      <span class="subtitle text-success"><i class="bi bi-dot"></i>Disponibile</span>
+      <span class="subtitle "><i class="bi bi-dot"></i><span
+          class="subtitle">Taglia:</span>{{datiProdotto.taglia}}</span>
+      <div>
+        <button class=" me-3 title my_link links_style" type="button" (click)="addToCart(datiProdotto)">Aggiungi al
+          carrello</button>
+      </div>
+      <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h4 class="subtitle"><i class="bi bi-credit-card-fill"></i>Metodi di pagamento</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body subtitle">Puoi pagare con carte di credito, paypal (in un'unica soluzione o in 3
+              rate),
+              bonifico, alla consegna (commissione contrassegno: 3,90 €).
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h4 class="subtitle"><i class="bi bi-rocket-fill"></i>Tempi e costi di consegna</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">La consegna avviene con corriere espresso BRT, TNT o GLS in 2-3 giorni
+              lavorativi dal momento dell'ordine (salvo ritardi eccezionali). La spedizione costa 5,90 € ed è gratuita
+              per ordini da 89 €.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h4 class="subtitle"><i class="bi bi-box-seam-fill"></i>Reso gratuito</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Hai 30 giorni dalla consegna dell'ordine per restituire uno o più prodotti e
+              chiedere il rimborso. Il reso è gratuito.
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+  <p class="subtitle mt-3">{{datiProdotto.descrizione}}</p><br>

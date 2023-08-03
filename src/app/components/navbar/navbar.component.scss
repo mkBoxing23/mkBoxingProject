@@ -1,0 +1,66 @@
+
+
+
+.my-link {
+  /* Stili predefiniti del link */
+
+  transition: text-decoration 0.3s ease-in-out; /* Aggiunge una transizione fluida all'effetto hover */
+}
+
+.my-link:hover {
+  text-decoration: underline; /* Mostra la sottolineatura al passaggio del mouse */
+  text-decoration-color:black; /* Cambia il colore della sottolineatura al passaggio del mouse */
+}
+
+/* Stile delle voci del menu principale */
+.nav-item .nav-link {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Aggiungi sottolineatura quando il cursore del mouse è sopra le voci del menu principale */
+.nav-item .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Stile del sottomenu nascosto */
+.nav-item .dropdown-menu .subdropdown-menu {
+  display: none;
+  position: absolute;
+  margin-top: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 0; /* Imposta l'opacità a 0 per nascondere il sottomenu */
+  pointer-events: none; /* Impedisce al sottomenu di ricevere eventi del mouse */
+  transition: opacity 0.3s ease; /* Aggiungi transizione per l'opacità */
+}
+
+/* Stile del sottomenu quando il cursore del mouse è sopra l'elemento del menu principale */
+.nav-item:hover .dropdown-menu  {
+  display: block;
+  opacity: 1; /* Mostra il sottomenu impostando l'opacità a 1 */
+  pointer-events: auto; /* Consenti al sottomenu di ricevere eventi del mouse */
+}
+
+/* Stile delle voci del sottomenu */
+.nav-item .dropdown-menu li .dropdown-item {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Aggiungi sottolineatura quando il cursore del mouse è sopra le voci del sottomenu */
+.nav-item .dropdown-menu li .dropdown-item:hover {
+  text-decoration: underline;
+
+}
+
+/* Posizionamento del sottomenu accanto all'elemento Abbigliamento */
+.nav-item .dropdown-menu .dropdown-menu {
+  left: 100%;
+  top: 0;
+}

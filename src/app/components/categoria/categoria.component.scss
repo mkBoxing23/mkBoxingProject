@@ -1,0 +1,32 @@
+.products-container {
+  display: flex;
+}
+
+.product-item {
+  margin: 10px; /* Opzionale, per aggiungere uno spazio tra i prodotti */
+  text-align: center; /* Opzionale, per centrare il testo */
+}
+.custom-link {
+  text-decoration: none; /* Rimuove la sottolineatura di default del link */
+  color: blue; /* Imposta il colore del testo del link, puoi scegliere quello che preferisci */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
+  color: black; /* Imposta il colore del testo del link al passaggio del mouse */
+}
+/* Aggiungi un effetto di dissolvenza sull'immagine quando ci passa sopra il mouse */
+.img-hover {
+  transition: opacity 0.3s ease-in-out; /* Aggiunge una transizione di 0.3 secondi con easing */
+}
+
+.img-hover:hover {
+  opacity: 0.8; /* Riduce leggermente l'opacità dell'immagine quando il mouse ci passa sopra */
+}
+.new {
+  position: absolute;
+  margin-top: 10px;
+}
+.new-background {
+  background: yellowgreen;
+}

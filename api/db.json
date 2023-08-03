@@ -1,0 +1,379 @@
+{
+  "utenti": [
+    {
+      "id": 1,
+      "ID Utente": 1,
+      "Nome": "Mario",
+      "Cognome": "Rossi",
+      "Età": 30,
+      "Email": "mario.rossi@example.com"
+    },
+    {
+      "id": 2,
+      "ID Utente": 2,
+      "Nome": "Laura",
+      "Cognome": "Bianchi",
+      "Età": 25,
+      "Email": "laura.bianchi@example.com"
+    },
+    {
+      "id": 3,
+      "ID Utente": 3,
+      "Nome": "Luca",
+      "Cognome": "Verdi",
+      "Età": 28,
+      "Email": "luca.verdi@example.com"
+    },
+    {
+      "id": 4,
+      "ID Utente": 4,
+      "Nome": "Sara",
+      "Cognome": "Esposito",
+      "Età": 32,
+      "Email": "sara.esposito@example.com"
+    },
+    {
+      "id": 5,
+      "ID Utente": 5,
+      "Nome": "Marco",
+      "Cognome": "Romano",
+      "Età": 22,
+      "Email": "marco.romano@example.com"
+    },
+    {
+      "nome": "",
+      "email": "",
+      "password": "",
+      "cognome": "",
+      "id": 8
+    },
+    {
+      "nome": "",
+      "email": "",
+      "password": "",
+      "cognome": "",
+      "id": 9
+    },
+    {
+      "nome": "",
+      "email": "",
+      "password": "",
+      "cognome": "",
+      "id": 10
+    },
+    {
+      "nome": "gianluca",
+      "email": "vialliforever@gmail.com",
+      "password": "champion97",
+      "cognome": "vialli",
+      "id": 11
+    },
+    {
+      "nome": "Prova",
+      "email": "fsdlkjfsdjklf@dkjsfldfs.it",
+      "password": "sdfsdfsdf",
+      "cognome": "Prova",
+      "id": 12
+    }
+  ],
+  "login": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "catalogo": [
+    {
+      "categoria": "Abbigliamento",
+      "prodotti": [
+        {
+          "id": 1,
+          "name": "T-shirt donna Pride or Die Stay Hungry",
+          "prezzo": 25.99,
+          "descrizione": "La T-shirt Pride or Die Stay Angry ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-donna-pride-or-die-stay-hungry_2_.jpg"
+        },
+        {
+          "id": 2,
+          "name": "T-shirt Pride or Die Unleashed ",
+          "prezzo": 25.5,
+          "descrizione": "La T-shirt Pride or Die Stay Angry ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "XL",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-pride-or-die-stay-hungry_1_.jpg"
+        },
+        {
+          "id": 3,
+          "name": "T-shirt Pride or Die Stay Hungry ",
+          "prezzo": 29.99,
+          "descrizione": "La T-shirt Pride or Die Stay Angry ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "M",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-pride-or-die-hast-la-muerte_4_.jpg"
+        },
+        {
+          "id": 4,
+          "name": "T-shirt Combat Arena Muerte Y Gloria ",
+          "prezzo": 34.5,
+          "descrizione": "La T-shirt Pride or Die hasta muerte ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "S",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-pride-or-die-only-the-strong_5_.jpg"
+        },
+        {
+          "id": 5,
+          "name": "T-shirt Pride or Die Stay Angry",
+          "prezzo": 15.99,
+          "descrizione": "La T-shirt Pride or Die Stay Angry ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "XXL",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-pride-or-die-busted-knuckles_6_.jpg"
+        },
+        {
+          "id": 6,
+          "name": "T-shirt Pride or Die Reckless Splattered ",
+          "prezzo": 50,
+          "descrizione": "La T-shirt Pride or Die Reckless Splattered ti dona un look grintoso e inconfondibile. Le ampie stampe su petto e schiena non ti faranno passare inosservato. Realizzata in cotone, questa maglietta morbida e resistente è perfetta come capo casual oppure per accompagnarti durante l`allenamento.",
+          "taglia": "S",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/t-shirt-pride-or-die-splattered_3_.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Canotta Venum Santa Muerte Dark Side ",
+          "prezzo": 29.99,
+          "descrizione": "La Canotta Venum Santa Muerte Dark Side rivisita il tema della Santa Muerte, simbolo di protezione, coraggio e forza. Realizzata in cotone ed elastane, questo capo è ideale per l`allenamento e il tempo libero. Ad esempio è perfetto abbinato a dei jeans, ma ottimo anche in combinata con i tuoi pantaloncini da MMA o a compressione preferiti. L`ampia apertura per le braccia offre libertà di movimento. Pratica e comoda, questa canotta ha anche una marcia in più in fatto di originalità e stile.",
+          "taglia": "S",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/canotta1.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Canotta Pride or Die Fight & Chill ",
+          "prezzo": 34.5,
+          "descrizione": "Ecco il capo estivo per eccellenza, la canotta, in una versione dal design ironico e grintoso di Pride or Die. La Canotta Fight & Chill è realizzata in cotone 160 gr: morbida e resistente, è perfetta per l`allenamento fuori e dentro la palestra, e anche per il tempo libero. ",
+          "taglia": "S",
+          "color": "white",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/canotta2.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Canotta donna Leone Logo W ABX117 ",
+          "prezzo": 15.2,
+          "descrizione": "Grazie alla sua semplicità, la Canotta donna Leone Logo W ABX117, assicura comfort ottimale per ogni tipo di sport e allenamento. Il tessuto leggero e morbido risulta piacevole sulla pelle, mentre il dorso a vogatore ti fa sentire libera di muoverti in tutta libertà.",
+          "taglia": "S",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/canotta3.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Tuta Completa Leone AB796",
+          "prezzo": 70,
+          "descrizione": "La Tuta completa Leone AB796 è realizzata in poliestere, tessuto comodo e resistente nel tempo. E` morbida da indossare, ottima sia per uomini che per donne. Ha il colletto alto e una pratica zip centrale. I polsini di braccia e gambe sono in costina, stretti e aderenti. Il logo Leone è presente su giacca e pantaloni. Disponibile in quattro colori e in diverse taglie. Ottima da indossare in diverse occasioni, come il tempo libero con gli amici o per un allenamento leggero all`aperto.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/tuta1.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Tuta Leone Premium AB300 ",
+          "prezzo": 86.5,
+          "descrizione": "La tuta AB300 firmata Leone è un capo immancabile per un fighter: intramontabile, comoda, perfetta per la palestra e per il tuo tempo libero. La tuta si compone di giacca con zip (disponibile a scelta in verde o in nero) e pantaloni (neri), entrambi dotati di polsino. Pratica e di grande tendenza, la tuta è un capo indispensabile nel tuo guardaroba, soprattutto in questa versione firmata Leone. Il grande logo Leone 1947 e le rifiniture oro esaltano il design della giacca. La scritta we are combat sports impreziosisce il pantalone. Un mix perfetto di stile e comfort.",
+          "taglia": "M",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/tuta2.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Tuta Leone Neo Camo AB796C ",
+          "prezzo": 80,
+          "descrizione": "Ti accompagna nello sport facendoti sentire sempre comodo. E` perfetta per un look rilassato e informale nel tuo tempo libero. La tuta Leone Neo Camo, composta da giacca con zip e pantaloni, reinterpreta lo stile mimetico in modo dinamico e di tendenza. Confortevole e versatile grazie anche ai polsini, la tuta Leone Neo Camo è disponibile in due versioni: nera con texture camouflage sui toni del verde oppure chiara con texture camouflage di colore grigio.",
+          "taglia": "XXL",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/tuta3.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Felpa tuta Leone DNA AB312 con cappuccio ",
+          "prezzo": 50,
+          "descrizione": "La Felpa Leone DNA AB312 è una maglia da tuta con full zip frontale, tasche e cappuccio. Audace, potente e originale: questo è lo stile di questa felpa caratterizzata da ampi loghi dorati su petto e schiena. Pratica e confortevole, si adatta alla palestra e alla quotidianità. Perfetta abbinata a un pantalone sportivo, come l`AB313 della serie DNA.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "Mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/tuta4.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Sacchi",
+      "prodotti": [
+        {
+          "id": 1,
+          "name": "Sacco ad acqua Combat Arena HydroShock Nero",
+          "prezzo": 99.9,
+          "descrizione": "Il Sacco HydroShock Combat Arena è la nuova frontiera del tuo allenamento. Scatenati con montanti, ganci, jab e qualsiasi altro colpo tu voglia sperimentare! Grazie al riempimento con acqua e al resistente rivestimento in pu/pvc, questo sacco ammortizza e assorbe al meglio i colpi, per un maggior comfort per le tue articolazioni. Il riempimento con acqua offre una sensazione molto naturale e simile a quando colpisci l’avversario. Con HydroShock sfrutti tutta la potenza dell’acqua per migliorare le tue prestazioni, aumentando tono muscolare, focus, riflessi e agilità. Puoi usarlo a casa o in palestra, per allenamenti boxe e fitness. Sei pronto per un salto di qualità?",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/sacco1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Sacco da boxe Combat Arena Training PRO 30 Kg Rosso ",
+          "prezzo": 139.9,
+          "descrizione": "Il Sacco da Boxe Combat Arena Training Pro rosso da 30 kg è lo strumento pensato per accompagnare i tuoi allenamenti in palestra oppure a casa. Grazie alla lunghezza di 100 cm e al peso di 30 kg, è un sacco versatile che si presta sia agli atleti giovani che a quelli più esperti. Robusto e resistente, è realizzato in vinile e imbottito con un mix di cotone tritato: questa combinazione permette di sopportare al meglio un utilizzo intenso e di mantenere la forma nonostante l`usura. Prodotto artigianalmente in Italia, presenta rifiniture eleganti e di qualità, che rispecchiano lo stile italiano. Dotato di cuciture rinforzate e cinghie robuste, viene venduto con 4 catene per agganciarlo e moschettone in ferro zincato.",
+          "taglia": "L",
+          "color": "red",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/sacco2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sacco allenamento MMA Leone 20 Kg AT850 ",
+          "prezzo": 206.91,
+          "descrizione": "Il Sacco Allenamento MMA 20 Kg Leone AT850 è in poliuretano con un`imbottitura in cotone ed EVA. E` un sacco professionale perfetto per un allenamento da MMA intenso e ottimale. Forte e resistente a tutti i colpi, anche per un uso prolungato nel tempo. Ottimo anche per la lotta a terra",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/sacco3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Palla da allenamento Leone 20 kg DNA AT853 Nero-oro ",
+          "prezzo": "199.90",
+          "descrizione": "La Palla da allenamento Leone DNA AT853 è realizzata in poliuretano con imbottitura in cotone. Completa di ganci e catene per appenderla, ha un peso di 20 kg. Perfetta per allenamenti a casa e in palestra, è progettata per migliorare forza, potenza e precisione dei colpi.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/sacco4.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Protezioni",
+      "prodotti": [
+        {
+          "id": 1,
+          "name": "Casco Leone DNA CS445 con parazigomi ",
+          "prezzo": 61.11,
+          "descrizione": "Il Casco Leone DNA CS445 fa parte della linea DNA, incarna al meglio l`anima dello storico marchio italiano, combinando elementi lucidi e opachi e con dettagli dorati che impreziosiscono il prodotto. Ottimo per offrire sicurezza alle tue performance, il casco CS445 è dotato di parazigomi e imbottitura anti-shock che protegge efficacemente il capo. Il sistema di chiusura con velcro e lacci consente di personalizzare al meglio la vestibilità. La fodera interna antiscivolo contribuisce a mentenere il casco in posizione durante le tue prestazioni.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "Fight or die",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/protezione1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Casco Leone Contest CS400 ",
+          "prezzo": 59.31,
+          "descrizione": "Il Caschetto Leone Contest CS400 è realizzato in vera pelle, resistente e duratura nel tempo. La parte interna è in pelle amara, morbida e confortevole sulla pelle. Ha una pratica e comoda chiusura in velcro regolabile sotto al mento. Ottima protezione per incontri di boxe, kick boxing e muay thai. Disponibile in rosso e blu. E` approvato FPI (Federazione Pugilistica Italiana), e può essere indossato anche durante i combattimenti ufficiali.",
+          "taglia": "L",
+          "color": "red",
+          "marchio": "Fight or die",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/protezione2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Casco Rival Professional RHG100 ",
+          "prezzo": 189.89,
+          "descrizione": "Il segreto del Casco Rival Professional RHG100? Una scrupolosa progettazione, mani esperte e l`altissimo livello dei materiali scelti per realizzarlo. Il risultato è un casco che offre in modo equilibrato comfort e protezione. Il modello RHG100 si distingue per l`assoluta leggerezza, dovuta alla costruzione con sistema Rival Feather Lite che combina materiali leggeri ma altamente protettivi, tra cui il mix di microfibra e PU dai colori metallizzati, la fodera resistente e confortevole. Tra i tratti distintivi di questo modello: funzionalità, sicurezza, para-zigomi ben coprenti, ampio campo visivo. Il sistema di regolazione è composto dalla chiusura posteriore e superiore con lacci di ispirazione vintage, cinturino sotto al mento e un ultteriore strato di neoprene che protegge la testa dai lacci e rende il fit più sicuro. Solido e leggero, il casco RHG100 è un prodotto professionale rifinito in modo eccellente fino al minimo dettaglio.",
+          "taglia": "L",
+          "color": "white",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/protezione3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Casco Leone Fighter CS424 con Griglia ",
+          "prezzo": 68.31,
+          "descrizione": "Casco con Griglia Estraibile Leone Fighter CS424, perfetto per evitare i colpi al volto. Questo caschetto è stato ideato per chi si avvicina agli sport da combattimento e, ancora inesperto, vuole evitare traumi al viso. L`imbottitura protegge tutto il capo e offre la massima sicurezza. La pratica chiusura a velcro consente di indossarlo e toglierlo con estrema semplicità.s",
+          "taglia": "L",
+          "color": "white",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/protezione4.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Guanti",
+      "prodotti": [
+        {
+          "id": 1,
+          "name": "Guantoni Leone Shock GN047",
+          "prezzo": 71.9,
+          "descrizione": "I Guantoni Leone Shock GN047 sono realizzati in pelle di bufalo di qualità, e sono ideali per allenamenti e competizioni. Il design semplice ma accattivante è disponibile in nero, rosso e blu. La chiusura in velcro assicura una vestibilità precisa e comoda, mentre l`imbottitura ad alto assorbimento protegge la mano da tutti i colpi, anche i più forti. Ottimi per atleti di boxe, kick boxing e muay thai che cercano un prodotto di qualità per un uso professionale.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "mk-boxing",
+          "altreinfo": "Prodotto in italia",
+          "img": "assets/images/guanti1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Guantoni Leone The Greatest GN111 ",
+          "prezzo": 113.5,
+          "descrizione": "Progettati per i professionisti, i Guantoni Leone 1947 The Greatest GN111 sono ideali per accompagnarti nell`allenamento. Esternamente realizzati in 100% pelle bovina, sono dotati di un`imbottitura composta da lattice, gomma EVA di alta qualità e PU: ne risulta una calzata confortevole e aderente. In più, grazie al design allungato e compatto sentirai le mani ben avvolte. Perfetti per chi ama le linee essenziali, i Guantoni Leone The Greatest GN111 hanno un look pulito, impreziosito da dettagli eleganti e ricercati.",
+          "taglia": "L",
+          "color": "Black",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/guanti2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Guantoni Leone Authentic GN106L ",
+          "prezzo": 34,
+          "descrizione": "I guantoni Leone Authentic GN106L sono ideali per i fighter pro che amano la calzata perfetta data dai lacci anche per allenarsi. I manicotti rinforzati rigidi offrono un maggior supporto e protezione ai polsi. Realizzati in pelle di bovino, i guantoni Leone Authentic GN106L sono imbottiti con schiuma multistrato.",
+          "taglia": "L",
+          "color": "white",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/guanti3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Guantoni Venum Elite 1392",
+          "prezzo": 89.4,
+          "descrizione": "I Guantoni Venum Elite sono adatti per l`allenamento o per il ring. Sono realizzati in Thailandia con l`utilizzo di similpelle di qualità e l`imbottitura in schiuma a tripla densità. Proteggono bene la mano durante i combattimenti, e la mantengono anche fresca e asciutta grazie al mesh traspirante presente sul palmo. La forma ergonomica ottimizza la vestibilità e la chiusura in velcro ti consente di regolare la stretta. Sul polsino è presente il logo Venum in rilievo per uno stile autentico al 100%.  Disponibili in diversi colori: scopri quello che fa per te!",
+          "taglia": "L",
+          "color": "white",
+          "marchio": "mk-boxing",
+          "altreinfo": "prodotto in italia",
+          "img": "assets/images/guanti4.jpg"
+        }
+      ]
+    }
+  ]
+}

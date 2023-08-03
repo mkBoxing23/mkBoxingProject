@@ -1,0 +1,78 @@
+<body>
+  <main>
+    <div class="basket">
+      <div class="basket-module">
+        <label class="subtitle" for="promo-code">Inserisci codice promozionale</label>
+        <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+        <button type="button" class="promo-code-cta subtitle">Applica</button>
+      </div>
+      <div class="basket-labels">
+        <ul>
+          <li class="item item-heading title">Prodotto</li>
+          <li class="price title">Prezzo</li>
+          <li class="quantity title">Quantità</li>
+
+        </ul>
+      </div>
+
+      <div *ngFor="let item of items" class="">
+        <div class="basket-product">
+          <div class="item">
+            <div class="product-image">
+              <img [src]="item.img" alt="Placholder Image 2" class="product-frame">
+            </div>
+            <div class="product-details">
+              <h1><strong><span class="item-quantity">4</span>{{item.name}}</strong> </h1>
+              <p><strong>{{item.color}}</strong></p>
+              <p><strong>{{item.taglia}}</strong></p>
+              <p>{{item.id}}</p>
+            </div>
+          </div>
+          <div class="price">{{item.prezzo}}</div>
+          <div class="quantity">
+            <input type="number" [attr.name]="'qnt_item_' + item.id"  [(ngModel)]="item.quantity" min="1" class="quantity-field" >
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-primary btn-sm me-1 " data-mdb-toggle="tooltip" title="Remove item">
+              <i (click)="rimuoviProdottoCarrello(item)" class="bi bi-trash3-fill"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <aside>
+      <div class="summary rounded ">
+        <div class="summary-total-items title"><span class="total-items"></span> Prodotti nel tuo carrello</div>
+        <div class="summary-subtotal">
+
+          <div class="subtotal-value final-value" id="basket-subtotal"></div>
+          <div class="summary-promo hide">
+
+            <div class="promo-value final-value" id="basket-promo"></div>
+          </div>
+        </div>
+        <div class="summary-delivery subtitle">
+          <select name="delivery-collection" class="summary-delivery-selection">
+            <option value="0" selected="selected">Select Collection or Delivery</option>
+            <option value="collection">Collection</option>
+            <option value="first-class">Royal Mail 1st Class</option>
+            <option value="second-class">Royal Mail 2nd Class</option>
+            <option value="signed-for">Royal Mail Special Delivery</option>
+          </select>
+        </div>
+        <div class="summary-total">
+          <div class="total-title subtitle">Totale</div>
+          <div class="total-value final-value" id="basket-total">{{ totale }}</div>
+        </div>
+        <div class="summary-checkout">
+          <button (click)="checkout()" class="checkout-cta subtitle">Check-out</button>
+        </div>
+        <div>
+          <button (click)="svuotaCarrello()" type="button" class="checkout-cta subtitle mt-2">Svuota carrello</button>
+        </div>
+
+      </div>
+    </aside>
+  </main>
+</body>

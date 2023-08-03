@@ -1,0 +1,15 @@
+<div class="container mb-5">
+  <div class="row">
+    <div *ngFor="let prodotto of prodottiFiltratiPerCategoria" class="col-md-2">
+      <span *ngIf="prodotto.id === 1" class="notify-badge new new-background subtitle">NEW</span>
+      <img [src]="prodotto.img" alt="" role="button" class="img-fluid border border-dark img-hover rounded"
+        (click)="goToProductDetail(prodotto)">
+      <p class="subtitle">{{prodotto.name}}</p>
+      <hr class="border border-dark ">
+      <span class="title">
+        €{{prodotto.prezzo}}
+
+      </span>
+    </div>
+  </div>
+</div>

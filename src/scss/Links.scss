@@ -1,0 +1,15 @@
+
+.links_style {
+    text-decoration: none;
+    color: black;
+}
+.my-link {
+  /* Stili predefiniti del link */
+
+  transition: text-decoration 0.3s ease-in-out; /* Aggiunge una transizione fluida all'effetto hover */
+}
+
+.my-link:hover {
+  text-decoration: underline; /* Mostra la sottolineatura al passaggio del mouse */
+  text-decoration-color:black; /* Cambia il colore della sottolineatura al passaggio del mouse */
+}

@@ -1,0 +1,53 @@
+<!--HEADER(NAVBAR-MENU)-->
+<div class="p-0 ">
+  <header class="">
+    <nav class="navbar py-0 navbar-expand-lg me-3  ">
+      <a class="navbar-brand" routerLink="dashboard"><img src="assets/images/logo.png" alt="" width="150px"
+          height="90px" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="bi bi-caret-down-fill"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="" class="nav-link title " aria-current="page" routerLink="dashboard">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="" class="nav-link dropdown-toggle title" routerLink="/catalogo" role="button" aria-expanded="false">
+              Catalogo
+            </a>
+            <ul class="dropdown-menu">
+              <li *ngFor="let cat of catalogo" class="">
+                <a class="dropdown-item title" (click)="onCategoriaclick(cat.categoria)">{{ cat.categoria }}</a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a routerLink="blog" id="" class="nav-link title my-link">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a id="" class="nav-link title my-link " routerLink="/newsletter">News Letter</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex gap-3 align-items-center">
+        <div *ngIf="!isLogged" class="nav-item">
+          <a class="links_style title my-link " routerLink="accedi">Accedi</a>
+        </div>
+        <div *ngIf="isLogged" class="nav-item">
+          <a class="links_style title my-link " routerLink="/account">Il mio account</a>
+        </div>
+        <div class="nav-item">
+          <a class="links_style title my-link " routerLink="cart">Carrello</a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+</div>
+<!--FINE HEADER(NAVBAR-MENU)-->

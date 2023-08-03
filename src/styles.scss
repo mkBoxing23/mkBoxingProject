@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'scss/fonts.scss';
+@import 'scss/title.scss';
+
+@import 'scss/Links.scss';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import 'scss/variables';
+@import 'scss/subtitle.scss';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+/*MEDIA-QUERIES*/
+@media(min-width:780px) {
+
+    .dropdown-menu.show {
+        margin-left: -3em;
+    }
+}
+
+.custom {
+  border-top: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  padding: 0.25em 0em;
+  margin: 1em 0em;
+  text-transform: uppercase;
+  font-size: 2em;
+  display: inline-block;
+  }
+
+
+
+
